@@ -28,7 +28,7 @@ def preprocessing():
 
     # read data
     # rawdata = pd.read_csv("./data/sorted.csv", names=['player_id', 'timestamp', 'log_id'])
-    rawdata = pd.read_csv("G:/dataset_csv_L2R/result_uid_p1.csv", names=['player_id', 'timestamp', 'log_id'])
+    rawdata = pd.read_csv("G:/dataset_csv/result_uid_p1.csv", names=['player_id', 'timestamp', 'log_id'])
 
     # label = pd.read_csv("./data/label.csv")
     label = pd.read_csv("./data/label_uid.csv")
